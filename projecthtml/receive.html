@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        pre {
+          border: 1px solid black;
+          margin-top: 100px;
+          margin-bottom: 100px;
+          margin-right: 80px;
+          margin-left: 80px;
+          background-color: lightblue;
+        }
+        </style>
+    <link rel="stylesheet" href="receive.css">
+</head>
+<body style="background-color: red;">
+    <header>
+        <nav class="navbar">
+        <ul>
+            <li><a href="first page.html">HOME</a></li>
+            <li><a href="New Users.html" taregt="_blank" alt="123">NEW USERS</a></li>
+            <li><a href="New Doctors.html" target="_blank" alt="123">NEW DOCTORS</a></li>
+            <li><a href="login.html" target="_blank" alt="123">LOGIN</a></li>
+            <li><a href="https://www.facebook.com/groups/158317211046148/?ref=share&mibextid=NSMWBT">FACEBOOK</a></li>
+        </ul>
+        </nav>
+    </header>
+    <div >
+        <pre>
+            <form>
+                      Hospital Address: <input type="text">
+                ---Select Blood Group---<input list="blood group">
+                                            <datalist id="blood group">
+                                                <option value="A +ve">A +ve</option>
+                                                <option value="A -ve">A -ve</option>
+                                                <option value="B +ve">B +ve</option>
+                                                <option value="B -ve">B -ve</option>
+                                                <option value="AB +ve">AB +ve</option>
+                                                <option value="AB -ve">AB -ve</option>
+                                                <option value="A1 +ve">A1 +ve</option>
+                                                <option value="A1 -ve">A1 -ve</option>
+                                                <option value="A2 +ve">A2 +ve</option>
+                                                <option value="A2 -ve">A2 -ve</option>
+                                                <option value="A1B +ve">A1B +ve</option>
+                                                <option value="A1B -ve">A1B -ve</option>
+                                                <option value="A2B +ve">A2B +ve</option>
+                                                <option value="A2B -ve">A2B -ve</option>
+                                                <option value="O +ve">O +ve</option>
+                                                <option value="O -ve">O -ve</option>
+                                            </datalist>
+                
+                <button  onclick="abc()">SUBMIT</button>
+                                            
+            </form>
+        </pre>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
